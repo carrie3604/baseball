@@ -1,0 +1,832 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  /**header**/
+  /**Section energie**/
+  /**Section icons**/
+  /**Section text**/
+  /**Section cards**/
+  /**Section baseballfield**/
+  /**Section Presse**/
+  /**footer**/
+  /**scrollbar**/
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 5rem;
+}
+
+body header div.logo {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 400px;
+          flex: 2 1 400px;
+  padding-top: 1rem;
+}
+
+body header div.logo img {
+  width: 350px;
+}
+
+body header nav {
+  -webkit-box-flex: 4;
+      -ms-flex: 4 1 500px;
+          flex: 4 1 500px;
+  padding-top: 4rem;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0080c9;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body header nav ul li a:hover {
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: #707070;
+}
+
+body header nav ul a.search {
+  font-size: 2rem;
+  color: #0080c9;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body header nav ul a.search:hover {
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: #707070;
+}
+
+body section.energie {
+  margin-top: 1rem;
+  position: relative;
+}
+
+body section.energie div.energieImg {
+  height: 1100px;
+  background-image: url(../Material/lets-play-baseball-hexagonal-white-vintage-retro-vector-8589331.jpg);
+  background-size: cover;
+  background-position: 25% 41.5%;
+  background-repeat: no-repeat;
+}
+
+body section.energie i {
+  font-size: 3rem;
+  color: #8cafe4;
+  position: absolute;
+  left: 5%;
+  bottom: 2.5%;
+}
+
+body section.energie i:hover {
+  cursor: pointer;
+}
+
+body section.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 1.5rem 0;
+}
+
+body section.icons div.icons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: 30vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body section.icons div.icons-container a i {
+  font-size: 4rem;
+  color: #0080c9;
+}
+
+body section.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section.text div.bigTitel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body section.text div.bigTitel p.title {
+  font-size: 3rem;
+  color: #0080c9;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 100px;
+          flex: 3 1 100px;
+}
+
+body section.text div.bigTitel p {
+  color: #707070;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 250px;
+          flex: 2 1 250px;
+}
+
+body section.cards {
+  margin: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /**All News part**/
+}
+
+body section.cards div.owl-theme {
+  margin-left: 9rem;
+}
+
+body section.cards div.owl-theme div.owl-nav, body section.cards div.owl-theme div.owl-dots {
+  margin-right: 15%;
+}
+
+body section.cards div.owl-theme div.item {
+  background-color: #707070;
+  color: white;
+  width: 20vw;
+  height: 18vw;
+  padding: 1.5rem 1.25rem 0rem 1.5rem;
+  position: relative;
+}
+
+body section.cards div.owl-theme div.item h3 {
+  padding: 1rem 0;
+}
+
+body section.cards div.owl-theme div.item div.mehr {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+body section.cards div.owl-theme div.item div.mehr a {
+  text-decoration: none;
+  color: white;
+}
+
+body section.cards div.allNews {
+  width: 100vw;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section.cards div.allNews a {
+  text-decoration: none;
+  color: #0080c9;
+}
+
+body section.field {
+  position: relative;
+  height: 60vw;
+}
+
+body section.field div.field-container {
+  height: 80vw;
+}
+
+body section.field div.field-container h1 {
+  color: #0080c9;
+  font-size: 2.5rem;
+  margin-left: 5rem;
+}
+
+body section.field div.field-container img {
+  width: 70vw;
+  height: 36vw;
+  position: absolute;
+  left: 10%;
+  top: 18%;
+  z-index: 2;
+}
+
+body section.field div.field-container div.blue-rec {
+  width: 40vw;
+  height: 42vw;
+  background-color: #0080c9;
+  position: absolute;
+  top: 13%;
+  right: 10%;
+}
+
+body section.presse {
+  margin-top: 1rem;
+}
+
+body section.presse h1 {
+  font-size: 2.5rem;
+  margin-left: 5rem;
+  color: #0080c9;
+}
+
+body section.presse div.presse-container {
+  padding-left: 3rem;
+  width: 50vw;
+  margin: 5rem 0 0 5rem;
+}
+
+body section.presse div.presse-container h2,
+body section.presse div.presse-container h3 {
+  color: #0080c9;
+}
+
+body section.presse div.presse-container h3 {
+  margin: 1rem 0;
+}
+
+body section.presse div.presse-container p.message {
+  color: #707070;
+  padding: 1.5rem 0;
+}
+
+body section.presse div.presse-container p.nummer, body section.presse div.presse-container p.email {
+  color: #707070;
+}
+
+body footer {
+  margin-top: 3rem;
+}
+
+body footer div.footer-container {
+  background-color: #055583;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 30vh;
+  position: relative;
+}
+
+body footer div.footer-container div.footer-logo {
+  position: absolute;
+  top: 20%;
+}
+
+body footer div.footer-container div.footer-logo img {
+  width: 400px;
+}
+
+body footer div.footer-container div.adress {
+  position: absolute;
+  left: 30%;
+  top: 6%;
+}
+
+body footer div.footer-container div.adress h2 {
+  color: white;
+  font-size: 1.25rem;
+}
+
+body footer div.footer-container div.adress p {
+  color: gainsboro;
+  margin-top: 1rem;
+  line-height: 2;
+}
+
+body footer div.footer-container div.impressum {
+  position: absolute;
+  right: 40%;
+  top: 6%;
+}
+
+body footer div.footer-container div.impressum h2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+body a.scroll {
+  position: fixed;
+  right: 15px;
+  bottom: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+body a.scroll i {
+  font-size: 3.5rem;
+  color: #96b8cc;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    /**Section energie**/
+    /**section icons**/
+    /**Section text**/
+    /**Section cards**/
+    /**Section baseballfield**/
+    /**Section Presse**/
+    /**footer**/
+    /**scrollbar**/
+  }
+  body header div.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header nav {
+    padding-top: 1rem;
+    padding-right: 4rem;
+  }
+  body header nav ul {
+    position: relative;
+  }
+  body header nav ul li {
+    padding-left: 1rem;
+  }
+  body header nav ul li a {
+    font-size: 1.25rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  body header nav ul li a:hover {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #707070;
+  }
+  body header nav ul li:first-of-type {
+    padding-left: 0;
+  }
+  body header nav ul a.search {
+    position: absolute;
+    right: -10%;
+    bottom: -40%;
+  }
+  body section.energie div.energieImg {
+    width: 100vw;
+    height: 55vw;
+  }
+  body section.energie i {
+    font-size: 1.5rem;
+  }
+  body section.icons {
+    margin-right: 1.5rem;
+  }
+  body section.icons div.icons-container a i {
+    font-size: 2.5rem;
+  }
+  body section.text div.bigTitel {
+    width: 85vw;
+  }
+  body section.text div.bigTitel p.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  body section.text div.bigTitel p {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 400px;
+            flex: 1 1 400px;
+    margin: 0 0 0 2rem;
+  }
+  body section.cards {
+    margin: 5rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body section.cards div.owl-theme {
+    margin-left: 2.5rem;
+  }
+  body section.cards div.owl-theme div.owl-nav, body section.cards div.owl-theme div.owl-dots {
+    margin-left: 3%;
+  }
+  body section.cards div.owl-theme div.item {
+    background-color: #707070;
+    color: white;
+    width: 40vw;
+    height: 50vw;
+    padding: 1.5rem 1.25rem 0rem 1.5rem;
+    position: relative;
+  }
+  body section.cards div.owl-theme div.item h3 {
+    padding: 1rem 0;
+  }
+  body section.cards div.owl-theme div.item div.mehr {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+  }
+  body section.cards div.owl-theme div.item div.mehr a {
+    text-decoration: none;
+    color: white;
+  }
+  body section.field {
+    position: relative;
+    height: 60vw;
+  }
+  body section.field div.field-container {
+    height: 80vw;
+  }
+  body section.field div.field-container h1 {
+    color: #0080c9;
+    font-size: 2rem;
+    margin-left: rem;
+  }
+  body section.field div.field-container img {
+    width: 70vw;
+    height: 36vw;
+    position: absolute;
+    left: 10%;
+    top: 18%;
+    z-index: 2;
+  }
+  body section.field div.field-container div.blue-rec {
+    width: 40vw;
+    height: 42vw;
+    background-color: #0080c9;
+    position: absolute;
+    top: 13%;
+    right: 10%;
+  }
+  body section.presse {
+    margin-top: 1rem;
+  }
+  body section.presse h1 {
+    font-size: 2.15rem;
+    margin-left: 5rem;
+    color: #0080c9;
+  }
+  body section.presse div.presse-container {
+    padding-left: 3rem;
+    width: 80vw;
+    margin: 5rem 0 2rem 4rem;
+  }
+  body section.presse div.presse-container h2,
+  body section.presse div.presse-container h3 {
+    color: #0080c9;
+  }
+  body section.presse div.presse-container h3 {
+    margin: 1rem 0;
+  }
+  body section.presse div.presse-container p.message {
+    color: #707070;
+    padding: 1.5rem 0;
+  }
+  body section.presse div.presse-container p.nummer, body section.presse div.presse-container p.email {
+    color: #707070;
+  }
+  body footer {
+    margin-top: 3rem;
+  }
+  body footer div.footer-container {
+    background-color: #055583;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 30vh;
+    position: relative;
+  }
+  body footer div.footer-container div.footer-logo {
+    position: absolute;
+    top: 20%;
+  }
+  body footer div.footer-container div.footer-logo img {
+    width: 300px;
+  }
+  body footer div.footer-container div.adress {
+    position: absolute;
+    left: 44%;
+    top: 15%;
+  }
+  body footer div.footer-container div.adress h2 {
+    color: white;
+    font-size: 0.85rem;
+  }
+  body footer div.footer-container div.adress p {
+    color: gainsboro;
+    margin-top: 1rem;
+    line-height: 2;
+    font-size: 0.85rem;
+  }
+  body footer div.footer-container div.impressum {
+    position: absolute;
+    right: 8%;
+    top: 12%;
+  }
+  body footer div.footer-container div.impressum h2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2;
+  }
+  body a.scroll {
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  body a.scroll i {
+    font-size: 2rem;
+    color: #96b8cc;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    /**section icons**/
+    /**Section text**/
+    /**Section cards**/
+    /**Section baseballfield**/
+    /**Section Presse**/
+    /**footer**/
+  }
+  body header div.logo img {
+    width: 250px;
+  }
+  body header nav {
+    padding-right: 0;
+  }
+  body header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body header nav ul li {
+    padding-top: 1rem;
+    border-bottom: 1px solid #a6b1c5;
+    padding-left: 0%;
+  }
+  body header nav ul a.search {
+    bottom: 11rem;
+  }
+  body section.icons {
+    margin-right: 0.25rem;
+  }
+  body section.icons div.icons-container {
+    width: 40vw;
+  }
+  body section.icons div.icons-container a i {
+    font-size: 2rem;
+  }
+  body section.text {
+    padding-right: 2rem;
+  }
+  body section.text div.bigTitel {
+    width: 90vw;
+  }
+  body section.text div.bigTitel p.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  body section.text div.bigTitel p {
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  body section.cards {
+    margin: 5rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    /**All News part**/
+  }
+  body section.cards div.owl-theme {
+    margin-left: 2.8rem;
+  }
+  body section.cards div.owl-theme div.owl-nav, body section.cards div.owl-theme div.owl-dots {
+    margin-left: -10%;
+  }
+  body section.cards div.owl-theme div.item {
+    background-color: #707070;
+    color: white;
+    width: 75vw;
+    height: 110vw;
+    padding: 1.5rem 1.25rem 0rem 1.5rem;
+    position: relative;
+  }
+  body section.cards div.owl-theme div.item h3 {
+    padding: 1rem 0;
+  }
+  body section.cards div.owl-theme div.item div.mehr {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+  }
+  body section.cards div.owl-theme div.item div.mehr a {
+    text-decoration: none;
+    color: white;
+  }
+  body section.cards div.allNews {
+    width: 100vw;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body section.cards div.allNews a {
+    text-decoration: none;
+    color: #0080c9;
+  }
+  body section.field {
+    position: relative;
+    height: 60vw;
+  }
+  body section.field div.field-container {
+    height: 80vw;
+  }
+  body section.field div.field-container h1 {
+    color: #0080c9;
+    font-size: 1.25rem;
+    margin-left: 5rem;
+  }
+  body section.field div.field-container img {
+    width: 80vw;
+    height: 55vw;
+    position: absolute;
+    left: 10%;
+    top: 18%;
+    z-index: 2;
+  }
+  body section.field div.field-container div.blue-rec {
+    width: 40vw;
+    height: 42vw;
+    background-color: #0080c9;
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    display: none;
+  }
+  body section.presse {
+    margin-top: 5rem;
+  }
+  body section.presse h1 {
+    font-size: 1.25rem;
+    margin-left: 9rem;
+    color: #0080c9;
+  }
+  body section.presse div.presse-container {
+    width: 90vw;
+    margin: 2rem 0 2rem 0rem;
+  }
+  body section.presse div.presse-container h2,
+  body section.presse div.presse-container h3 {
+    color: #0080c9;
+    font-size: 1.05rem;
+  }
+  body section.presse div.presse-container h3 {
+    margin: 1rem 0;
+  }
+  body section.presse div.presse-container p.message {
+    color: #707070;
+    padding: 1.5rem 0;
+  }
+  body section.presse div.presse-container p.nummer, body section.presse div.presse-container p.email {
+    color: #707070;
+  }
+  body footer {
+    margin-top: 3rem;
+  }
+  body footer div.footer-container {
+    background-color: #055583;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 30vh;
+    position: relative;
+  }
+  body footer div.footer-container div.footer-logo {
+    position: absolute;
+    top: 10%;
+  }
+  body footer div.footer-container div.footer-logo img {
+    width: 150px;
+  }
+  body footer div.footer-container div.adress {
+    position: absolute;
+    left: 44%;
+    top: 10%;
+  }
+  body footer div.footer-container div.adress h2 {
+    color: white;
+    font-size: 0.75rem;
+  }
+  body footer div.footer-container div.adress p {
+    color: gainsboro;
+    margin-top: 1rem;
+    line-height: 2;
+    font-size: 0.7rem;
+  }
+  body footer div.footer-container div.impressum {
+    position: absolute;
+    left: 8%;
+    top: 40%;
+  }
+  body footer div.footer-container div.impressum h2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+    line-height: 2;
+  }
+}
+/*# sourceMappingURL=style.css.map */
